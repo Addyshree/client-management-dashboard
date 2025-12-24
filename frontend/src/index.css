@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  color: white;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+}
+
+.glowing-text {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00f2fe, #4facfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(0, 242, 254, 0.5);
+}
+
+.highlight-badge {
+  display: inline-block;
+  background: rgba(0, 242, 254, 0.2);
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00f2fe, #4facfe);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 40px;
+  font-weight: 600;
+}
+
+.btn-add-client {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #00f2fe, #4facfe);
+  border: none;
+  font-size: 30px;
+  box-shadow: 0 10px 20px rgba(0, 242, 254, 0.4);
+  z-index: 1000;
+}
