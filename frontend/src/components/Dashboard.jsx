@@ -214,7 +214,7 @@ const Dashboard = () => {
       </Row>
 
       {error && <Alert variant="danger">{error}</Alert>}
-
+console.log('API URL:', import.meta.env.VITE_API_URL);
       {/* Table */}
       <Card
         className="shadow border-0"
